@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+   <div class="wrapper">
+      <header>
+        <i class="bx bx-cookie"></i>
+        <h2>Cookies Consent</h2>
+      </header>
+      <div class="data">
+        <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
+      </div>
+      <div class="buttons">
+        <button class="button" id="acceptBtn">Accept</button>
+        <button class="button" id="declineBtn">Decline</button>
+      </div>
+    </div>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Esha.Quiz</a>
+
+      <form action="#" class="search-form" onsubmit="redirectToPage(); return false;">
+         <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100" id="searchInput">
+         <button type="submit" class="fas fa-search">Search</button>
+     </form>
+
+     
+
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/logo.png" class="image" alt="">
+         <h3 class="name">Esha</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <input type="file" id="fileInput" accept="image/*" onchange="displayImage(event)">
+      <label for="fileInput">
+         <img src="images\logo.png" class="image" alt="" id="profileImage">
+      </label>
+      <h3 class="name">Esha</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">View Profile</a>
+   </div>
+   
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="http://localhost/online-examination-systen-in-php-master/online-examination-systen-in-php-master/index.php"><i class="fas fa-graduation-cap"></i><span>Quick quiz</span></a>
+      <a href="courses.html"><i class="fas fa-chalkboard-user"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+   </nav>
+
+</div>
+
+
+<section class="home-grid">
+   
+
+   <h1 class="heading">quick options</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">Score</h3>
+         <p class="likes">Highest Score: <span></span></p>
+         <a href="http://localhost/online-examination-systen-in-php-master/online-examination-systen-in-php-master/dash.php?q=2" class="inline-btn">View Details</a>
+         <p class="likes">Overall Quizzes: <span>8</span></p>
+         <a href="#quizportal" class="inline-btn">View Details</a>
+         <p class="likes">Overall Courses: <span>8</span></p>
+         <a href="#coursesimp" class="inline-btn">View Saved Courses</a>
+      </div>
+      
+
+      <div class="box">
+         <h3 class="title" id = "quizportal" >Quiz portal</h3>
+         <div class="flex" >
+            <a href="game1.html"><i class="fas fa-code"></i><span>Animation</span></a>
+            <a href="game2.html"><i class="fas fa-chart-simple"></i><span>CS</span></a>
+            <a href="game3.html"><i class="fas fa-pen"></i><span>Books</span></a>
+            <a href="game4.html"><i class="fas fa-chart-line"></i><span>Politics</span></a>
+            <a href="game5.html"><i class="fas fa-music"></i><span>Music</span></a>
+            <a href="game6.html"><i class="fas fa-camera"></i><span>Film</span></a>
+            <a href="game7.html"><i class="fas fa-cog"></i><span>Maths</span></a>
+            <a href="game8.html"><i class="fas fa-vial"></i><span>Nature</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Course topics</h3>
+         <div class="flex">
+            <a href="playlist1.html"><i class="fab fa-html5"></i><span>HTML and CSS</span></a>
+            <a href="playlist2.html"><i class="fab fa-html5"></i><span>JS</span></a>
+            <a href="playlist3.html"><i class="fab fa-html5"></i><span>BootStrap</span></a>
+            <a href="playlist4.html"><i class="fab fa-html5"></i><span>JQuery</span></a>
+            <a href="playlist5.html"><i class="fab fa-html5"></i><span>SASS</span></a>
+            <a href="playlist6.html"><i class="fab fa-html5"></i><span>PHP</span></a>
+            <a href="playlist7.html"><i class="fab fa-html5"></i><span>MySql</span></a>
+            <a href="playlist8.html"><i class="fab fa-html5"></i><span>React</span></a>
+
+         </div>
+      </div>
+
+
+   </div>
+
+</section>
+
+
+
+<section class="courses" id = "coursesimp">
+
+   <h1 class="heading">our courses</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-6.jpg" alt="">
+            <div class="info">
+               <h3>Dr. Vijayaprabhakaran K</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-1.png" alt="">
+            <span>11 videos</span>
+         </div>
+         <h3 class="title">complete HTML and CSS tutorial</h3>
+         <a href="playlist1.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-4.jpg" alt="">
+            <div class="info">
+               <h3>Dr. Ranjeet Kumar</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-3.png" alt="">
+            <span>06 videos</span>
+         </div>
+         <h3 class="title">complete JS tutorial</h3>
+         <a href="playlist2.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-5.jpg" alt="">
+            <div class="info">
+               <h3>Dr. Vatchala S</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-4.png" alt="">
+            <span>09 videos</span>
+         </div>
+         <h3 class="title">complete Boostrap tutorial</h3>
+         <a href="playlist3.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-2.jpg " alt="">
+            <div class="info">
+               <h3>Dr. V Brindha</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-5.png" alt="">
+            <span>12 videos</span>
+         </div>
+         <h3 class="title">complete JQuery tutorial</h3>
+         <a href="playlist4.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-7.jpg" alt="">
+            <div class="info">
+               <h3>Dr. Vedhapriyavadhana</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-6.png" alt="">
+            <span>12 videos</span>
+         </div>
+         <h3 class="title">complete SASS tutorial</h3>
+         <a href="playlist5.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-8.jpg" alt="">
+            <div class="info">
+               <h3>Dr. Sandeep Kumar</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-7.png" alt="">
+            <span>05 videos</span>
+         </div>
+         <h3 class="title">complete PHP tutorial</h3>
+         <a href="playlist6.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-9.jpg" alt="">
+            <div class="info">
+               <h3>Dr. Satya K R</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-8.png" alt="">
+            <span>07 videos</span>
+         </div>
+         <h3 class="title">complete MySQL tutorial</h3>
+         <a href="playlist7.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-1.jpg" alt="">
+            <div class="info">
+               <h3>Dr. Rajesh R</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-9.png" alt="">
+            <span>08 videos</span>
+         </div>
+         <h3 class="title">complete react tutorial</h3>
+         <a href="playlist8.html" class="inline-btn">view playlist</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>

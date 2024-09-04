@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>video playlist</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+    <a href="home.html" class="logo">Esha.Quiz</a>
+
+    <form action="#" class="search-form" onsubmit="redirectToPage(); return false;">
+       <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100" id="searchInput">
+       <button type="submit" class="fas fa-search">Search</button>
+   </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Esha</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images\logo.png" class="image" alt="">
+      <h3 class="name">Esha</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="index.html"><i class="fas fa-graduation-cap"></i><span>Quick quiz</span></a>
+      <a href="courses.html"><i class="fas fa-chalkboard-user"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+   </nav>
+
+</div>
+
+<section class="playlist-details">
+
+   <h1 class="heading">playlist details</h1>
+
+   <div class="row">
+
+      <div class="column">
+         <form action="" method="post" class="save-playlist">
+            <button type="submit"><i class="far fa-bookmark"></i> <span>save playlist</span></button>
+         </form>
+   
+         <div class="thumb">
+            <img src="images/thumb-5.png" alt="">
+            <span>12 videos</span>
+         </div>
+      </div>
+      <div class="column">
+         <div class="tutor">
+            <img src="images/pic-2.jpg" alt="">
+            <div>
+               <h3>Dr. V Brindha</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+   
+         <div class="details">
+            <h3>complete jQuery tutorial</h3>
+            <p>Unlock the power of jQuery with our expert-led lessons. Learn to enhance your web projects with dynamic and interactive features effortlessly. From animations to event handling, our course equips you with the skills to take your websites to the next level. Join us and unleash the potential of jQuery!</p>
+            <a href="teacher_profile4.html" class="inline-btn">view profile</a>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<section class="playlist-videos">
+
+   <h1 class="heading">playlist videos</h1>
+
+   <div class="box-container">
+
+      <a class="box" href="https://youtu.be/BaIgTKj1iCQ?si=f9xzO8FFCwurNBdo">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 01)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/EwUOsRlDTLQ?si=4ZphfmvoG3K3Weat">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 02)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/9TwYaSnb2GI?si=rPMlvJncYI9UnPS4">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 03)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/9bCrSoSNp_w?si=06Gybp_5MRjQ0gY7">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 04)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/6HWaZIfUZVg?si=Pi_hDE6q-YZGY4IR">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 05)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/EjAp2uC8JXE?si=zRLizxZ4gbVobal1">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 06)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/fW7rwCpD0FY?si=PylADWn4lV1aWaDW">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 07)</h3>
+      </a>
+
+      <a class="box" href="">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="https://youtu.be/J44Hik3q5zg?si=RUGER6fklWV2hqMR">
+         <h3>complete jQuery tutorial (part 08)</h3>
+      </a>
+
+      <a class="box" href="">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="https://youtu.be/iYpAEthzjtw?si=GtBveRRU1MibypJJ">
+         <h3>complete jQuery tutorial (part 09)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/p7bOGJ-UdOk?si=cLQlYwIaxlMFbry9">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 10)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/TERbWf4V2K0?si=XfSV9XpIJFagDLl4">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 11)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/EWIbOK6ymKE?si=5N128Owmwn5DI1AF">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>complete jQuery tutorial (part 12)</h3>
+      </a>
+
+   </div>
+
+</section>
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>

@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>video playlist</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+    <a href="home.html" class="logo">Esha.Quiz</a>
+
+    <form action="#" class="search-form" onsubmit="redirectToPage(); return false;">
+       <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100" id="searchInput">
+       <button type="submit" class="fas fa-search">Search</button>
+   </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Esha</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images\logo.png" class="image" alt="">
+      <h3 class="name">Esha</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="index.html"><i class="fas fa-graduation-cap"></i><span>Quick quiz</span></a>
+      <a href="courses.html"><i class="fas fa-chalkboard-user"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+   </nav>
+
+</div>
+
+<section class="playlist-details">
+
+   <h1 class="heading">playlist details</h1>
+
+   <div class="row">
+
+      <div class="column">
+         <form action="" method="post" class="save-playlist">
+            <button type="submit"><i class="far fa-bookmark"></i> <span>save playlist</span></button>
+         </form>
+   
+         <div class="thumb">
+            <img src="images/thumb-8.png" alt="">
+            <span>07 videos</span>
+         </div>
+      </div>
+      <div class="column">
+         <div class="tutor">
+            <img src="images/pic-9.jpg" alt="">
+            <div>
+               <h3>Dr. Satya K R</h3>
+               <span>12-03-2024</span>
+            </div>
+         </div>
+   
+         <div class="details">
+            <h3>complete MySQL tutorial</h3>
+            <p>Explore the depths of database management with our MySQL tutorials. From fundamental concepts to advanced queries, our lessons equip you with the skills needed to harness the full potential of MySQL. Dive in and discover how to organize, retrieve, and manipulate data effectively. Start building robust, scalable databases with ease!</p>
+            <a href="teacher_profile7.html" class="inline-btn">view profile</a>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<section class="playlist-videos">
+
+   <h1 class="heading">playlist videos</h1>
+
+   <div class="box-container">
+
+      <a class="box" href="https://youtu.be/us1XyayQ6fU?si=-Vhrq44fj9Qq4yV0">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-8.png" alt="">
+         <h3>complete MySQL tutorial (part 01)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/9DwlJSlwvqY?si=YD_wX_icSPnGjh3g">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-8.png" alt="">
+         <h3>complete MySQL tutorial (part 02)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/7s0kdfiTLRE?si=nroNYNXb0jHBpGv1">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-8.png" alt="">
+         <h3>complete MySQL tutorial (part 03)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/cKNQRAMoQHw?si=i1fepZkw0IpOw6N7">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-8.png" alt="">
+         <h3>complete MySQL tutorial (part 04)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/z-Zg39LzcW8?si=QSPikl5J-ZSbFvty">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-8.png" alt="">
+         <h3>complete MySQL tutorial (part 05)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/xDDlB51dX5E?si=6enDJy-Z6ktgpFm0">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-8.png" alt="">
+         <h3>complete MySQL tutorial (part 06)</h3>
+      </a>
+
+      <a class="box" href="https://youtu.be/p7pYiynUNAo?si=ictMxmMgUdB35GC1">
+         <i class="fas fa-play"></i>
+         <img src="images/thumb-8.png" alt="">
+         <h3>complete MySQL tutorial (part 07)</h3>
+      </a>
+
+   </div>
+
+</section>
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
